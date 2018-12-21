@@ -17,4 +17,5 @@ The 400 total images are separated into training and testing datasets.
 First, we set some variables to keep track of some where our images are stored:
 
 *image_dir_training*: the directory where our training image data is stored
+
 *image_dir_test*: the directory where our test image data is stored
