@@ -13,10 +13,12 @@ To build a classifier that can accurately label these images as day or night, an
 The 400 total images are separated into training and testing datasets.
 
 **60%** of these images are training images, used it to create a classifier.
-**40%** are test images, used to test the accuracy of your classifier.
+**40%** are test images, used to test the accuracy of the classifier.
 These are some variables to keep track of where our image data is stored:
 
 ```
 image_dir_training: the directory where our training image data is stored
 image_dir_test: the directory where our test image data is stored
+IMAGE_LIST: list of training image-label pairs
+STANDARDIZED_LIST: list of preprocessed image-label pairs
 ```
